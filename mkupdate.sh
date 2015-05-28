@@ -24,6 +24,6 @@ echo "Removing temp files."
 rm ./backupimage/backup.img || pause
 rm ./output/update_noboot.img || pause
 echo "Temp files removed."
-echo "Press any key to quit:"
-read -n1 -s key
-exit 0
+#echo "Press any key to quit:"
+#read -n1 -s key
+#exit 0
