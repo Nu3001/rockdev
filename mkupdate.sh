@@ -18,7 +18,7 @@ fi
 echo "Build: backup.img OK"
 echo "Starting to make update.img..."
 ./afptool -pack ./ output/update_noboot.img || pause
-./rkImageMaker -RK31 RK3188Loader\(L\)_V2.10.bin output/update_noboot.img update.img -os_type:androidos || pause
+./rkImageMaker -RK31 RK3188Loader\(L\)_V2.15.bin output/update_noboot.img update.img -os_type:androidos || pause
 echo "Build: update.img OK."
 echo "Removing temp files."
 rm ./backupimage/backup.img || pause
