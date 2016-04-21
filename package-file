@@ -2,7 +2,7 @@
 #               
 #HWDEF          HWDEF
 package-file    package-file
-bootloader      RK3188Loader(L)_V2.15.bin
+bootloader      RK3188Loader(L)_V2.19.bin
 parameter       parameter
 misc            Image/misc.img
 kernel          Image/kernel.img
